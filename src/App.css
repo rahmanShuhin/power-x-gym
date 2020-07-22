@@ -1,0 +1,12 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+@media (min-width: 1200px) {
+  .px-lg-6 {
+    padding-left: 12% !important;
+    padding-right: 12% !important;
+  }
+}

@@ -1,0 +1,12 @@
+.btn-2 {
+  background-color: gold;
+  font-weight: 700;
+  position: relative;
+  top: -15px;
+  border-radius: 0px;
+  transition: all 0.7s;
+}
+.btn-2:hover {
+  background-color: black;
+  color: gold;
+}

@@ -1,0 +1,12 @@
+.footer-container {
+  background-color: black;
+  color: white;
+  min-height: 40vh;
+}
+.logo-after {
+  color: white;
+}
+.logo-after::after {
+  content: " X";
+  color: gold;
+}

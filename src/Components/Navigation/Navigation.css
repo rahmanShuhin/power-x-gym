@@ -1,0 +1,7 @@
+.nav-brand {
+  font-weight: 700;
+}
+.nav-brand::after {
+  content: " X";
+  color: gold;
+}

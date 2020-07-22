@@ -1,0 +1,22 @@
+.card-2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../../Image/6.jpg);
+  background-position: center top;
+  background-size: cover;
+  color: white;
+}
+.card-2 p:nth-child(1) {
+  color: gold;
+}
+.card-2 p:not(:first-child) {
+  color: lightgray;
+}
+.card-2 p:not(:first-child)::before {
+  content: "\2713";
+  margin-right: 5px;
+}
+.card-2 h2 {
+  color: gold;
+
+  font-size: 60px;
+}
