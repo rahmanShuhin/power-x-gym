@@ -1,8 +1,9 @@
 .home-container {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(../../Image/bg.jpg);
-  height: 75vh;
-  background-position: center top;
+  min-height: 85vh;
+  background-repeat: no-repeat;
+  background-position: center 3%;
   background-size: cover;
   color: white;
 }
@@ -11,7 +12,7 @@
   border-radius: 0px;
   font-weight: 900;
   font-size: 18px;
-  padding: 10px 50px;
+  padding: 12px 60px;
   transition: all 0.5s;
 }
 .btn-1:hover {
@@ -25,13 +26,124 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  height: 65vh;
+  height: 85vh;
+}
+.caption > div {
+  max-width: 80%;
 }
 .caption h1 {
-  font-weight: 900;
+  font-weight: 700;
   letter-spacing: 2px;
-  font-size: 40px;
+  font-size: 45px;
 }
 .caption p {
-  margin: 20px 0px;
+  margin: 20px 0px 50px 0px;
+}
+.home-extra {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../../Image/gym3.jpg);
+  background-position: center top;
+  background-size: cover;
+  color: white;
+}
+.dumbbell {
+  font-size: 50px;
+  margin-bottom: 25px;
+}
+.video-section {
+  background: url(../../Image/X.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+.youtube-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(211, 211, 211, 0.322);
+  padding: 30px;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.video__player {
+  width: 100%;
+  height: 500px;
+}
+@media only screen and (max-width: 991.98px) {
+  .home-container {
+    min-height: 50vh;
+  }
+  .caption {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 40vh;
+    text-align: center;
+  }
+  .caption > div {
+    max-width: 100%;
+  }
+  .caption h1 {
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 40px;
+  }
+  .video-section {
+    height: 20vh;
+  }
+}
+@media only screen and (max-width: 767.98px) {
+  .home-container {
+    min-height: 70vh;
+  }
+  .caption {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 45vh;
+    text-align: center;
+  }
+  .caption > div {
+    max-width: 100%;
+  }
+  .caption h1 {
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 30px;
+  }
+  .video-section {
+    height: 20vh;
+  }
+}
+@media only screen and (max-width: 575.98px) {
+  body {
+    overflow-x: hidden;
+  }
+  .home-container {
+    min-height: 100vh;
+  }
+  .caption {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 65vh;
+    text-align: center;
+  }
+  .caption > div {
+    max-width: 100%;
+  }
+  .caption h1 {
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 5.9vw;
+  }
+  .video-section {
+    height: 20vh;
+  }
 }

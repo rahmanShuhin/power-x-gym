@@ -1,0 +1,15 @@
+.form-col {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0px;
+}
+.form-col input {
+  padding: 10px 10px;
+}
+
+.form-col input:focus {
+  outline: none;
+}
+.form-col span {
+  color: red;
+}

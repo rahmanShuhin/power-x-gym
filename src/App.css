@@ -3,7 +3,12 @@
   margin: 0px;
   box-sizing: border-box;
 }
-
+body {
+  overflow-x: hidden;
+}
+p {
+  line-height: 1.7em;
+}
 @media (min-width: 1200px) {
   .px-lg-6 {
     padding-left: 12% !important;

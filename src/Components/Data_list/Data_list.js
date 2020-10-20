@@ -4,6 +4,7 @@ import gym3 from "../../Image/gym3.jpg";
 import gym4 from "../../Image/gym4.jpg";
 import gym5 from "../../Image/gym5.jpg";
 import gym6 from "../../Image/gym6.png";
+import yoga from "../../Image/yoga.jpg";
 export const Data_list = [
   {
     name: "PHYSIO TRAINING",
@@ -60,13 +61,13 @@ export const Data_list = [
     key: "advgym",
   },
   {
-    name: "PHYSIO TRAINING",
+    name: "YOGA TRAINING",
     price: {
       advance: 100,
       basic: 60,
       beginner: 40,
     },
-    img: gym2,
+    img: yoga,
     time: {
       MONDAY: "8:00 AM - 9:00 AM",
       TUESDAY: "10:00 AM - 11:00 AM",
@@ -75,7 +76,7 @@ export const Data_list = [
       FRIDAY: "10:00 PM - 11:00PM",
       SATURDAY: "7:00 PM - 8:00 PM",
     },
-    key: "physio2",
+    key: "yoga",
   },
   {
     name: "CARDIO TRAINING",
@@ -93,7 +94,7 @@ export const Data_list = [
       FRIDAY: "10:00 PM - 11:00PM",
       SATURDAY: "7:00 PM - 8:00 PM",
     },
-    key: "cradio",
+    key: "cardio",
   },
   {
     name: "STRENGTH TRAINING",

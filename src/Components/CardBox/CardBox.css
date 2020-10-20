@@ -10,3 +10,7 @@
   background-color: black;
   color: gold;
 }
+.img__box {
+  min-height: 350px;
+  object-fit: cover;
+}

@@ -1,0 +1,155 @@
+.home__extra__text {
+  padding-left: 70px;
+  margin-top: 50px !important;
+}
+.home__extra__text > h2 {
+  color: lightgray;
+  font-size: 50px;
+  font-weight: 700;
+}
+.s_text {
+  position: relative;
+}
+.s_text::after {
+  content: "";
+  position: absolute;
+  height: 150px;
+  width: 1px;
+  bottom: 10px;
+  right: -100%;
+  background-color: rgba(245, 110, 110, 0.363);
+}
+
+.home__extra__text > h4 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.home__extra__text > h4:nth-child(2) {
+  color: gold;
+}
+.home__extra__text > p {
+  margin: 25px 0px;
+  color: black;
+  max-width: 80%;
+
+  position: relative;
+}
+.boss {
+  text-align: left;
+  width: 100%;
+  height: 550px;
+  object-fit: cover;
+}
+.yoga__container__1 > img,
+.yoga__container__2 > img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.yoga__container__1 > .btn-1,
+.yoga__container__2 > .btn-1 {
+  position: relative;
+  top: -150px;
+}
+.home__extra__h4 > h4 {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 700;
+}
+.home__extra__h4 > h4::after {
+  content: " Progress";
+  color: gold;
+}
+.home__choose__h4 > h4 {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 700;
+  color: gold;
+}
+.home__choose__h4 > h4::after {
+  content: " Choose Us";
+  color: black;
+}
+.my_card {
+  text-align: center;
+  padding: 90px 0px 20px 0px;
+  box-shadow: 2px 2px 10px lightgray;
+  border: none;
+  color: black;
+}
+.second {
+  border: 1px solid gold !important;
+}
+.title {
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 25px;
+  font-size: 22px;
+}
+.my_card > img {
+  width: 109px;
+  height: 109px;
+  margin: auto;
+}
+@media only screen and (max-width: 991.98px) {
+  .home__extra__text > h2 {
+    font-size: 45px;
+  }
+  .home__extra__text {
+    text-align: center;
+    padding-left: 0px;
+    margin-top: 50px !important;
+  }
+  .home__extra__text > h4 {
+    font-size: 35px;
+  }
+  .home__extra__text > p {
+    margin: 25px 0px;
+    padding: 0px 0px;
+    color: black;
+    max-width: 100%;
+    position: relative;
+  }
+  .s_text::after {
+    height: 7vh;
+  }
+  .home__extra__h4 > h4 {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 700;
+  }
+}
+
+@media only screen and (max-width: 575.98px) {
+  .home__extra__text > h2 {
+    color: lightgray;
+    font-size: 10vw;
+    font-weight: 700;
+  }
+  .home__extra__text {
+    text-align: center;
+    padding-left: 0px;
+    margin-top: 50px !important;
+  }
+  .home__extra__text > h4 {
+    font-size: 5.9vw;
+    font-weight: 700;
+  }
+  .home__extra__text > p {
+    margin: 25px 0px;
+    padding: 0px 20px;
+    color: black;
+    max-width: 100%;
+    position: relative;
+  }
+  .s_text::after {
+    height: 10vh;
+  }
+  .home__extra__h4 > h4 {
+    font-size: 5.9vw;
+  }
+  .home__choose__h4 > h4 {
+    font-size: 5.9vw;
+  }
+}

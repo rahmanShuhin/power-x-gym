@@ -1,0 +1,32 @@
+.line-horizontal {
+  display: grid;
+  grid-template-columns: 50px auto 50px auto 50px;
+}
+.line-horizontal > div:nth-child(odd) {
+  background-color: lightgray;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 7px;
+  color: black;
+  font-weight: 700;
+}
+.line-horizontal > div:nth-child(1) {
+  background-color: gold;
+}
+
+.line-horizontal > div:nth-child(even) {
+  background-color: white;
+  height: 2px;
+  position: relative;
+  top: 24px;
+  border-top: 2px dotted black;
+}
+.line-horizontal-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.yellow {
+  background-color: gold !important;
+}

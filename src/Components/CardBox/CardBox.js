@@ -5,9 +5,9 @@ import "./CardBox.css";
 const CardBox = (props) => {
   const { name, img, key } = props.x;
   return (
-    <Col sm={4} className="py-3">
+    <Col sm={12} md={6} lg={4} className="py-3">
       <Card className="border-0">
-        <Card.Img variant="top" src={img} className="img-fluid" />
+        <Card.Img variant="top" src={img} className="img-fluid img__box" />
         <Link className="btn btn-2 mx-3" to={"/schedule/" + key}>
           {name}
         </Link>

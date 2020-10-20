@@ -7,6 +7,9 @@
   color: white;
   position: relative;
 }
+.classList > h2 {
+  font-size: 45px;
+}
 .class-container > div:nth-child(2) {
   position: absolute;
   top: 50%;
@@ -19,4 +22,14 @@
   font-size: 50px;
   font-weight: 700;
   letter-spacing: 2px;
+}
+@media only screen and (max-width: 767.98px) {
+  .classList > h2 {
+    font-size: 35px !important;
+  }
+}
+@media only screen and (max-width: 575.98px) {
+  .classList > h2 {
+    font-size: 6.5vw !important;
+  }
 }

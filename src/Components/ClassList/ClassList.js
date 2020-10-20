@@ -10,7 +10,7 @@ const ClassList = () => {
     <>
       <Container fluid className="class-container px-md-5 px-lg-6">
         <Navigation></Navigation>
-        <div>
+        <div className="classList">
           <h2>OUR CLASSES</h2>
         </div>
       </Container>
